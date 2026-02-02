@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>College Chatbot (TF-IDF + LR)</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f5f7fb; margin:0; padding:0; display:flex; align-items:center; justify-content:center; height:100vh; }
+    .chatbox { width: 720px; max-width:96%; background:#fff; box-shadow:0 6px 24px rgba(0,0,0,0.08); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+    .header { padding:16px 20px; background:#2b6cb0; color:#fff; }
+    .messages { padding:16px; height:420px; overflow:auto; background:linear-gradient(#ffffff,#f7fbff); }
+    .msg { margin-bottom:12px; }
+    .user { text-align:right; }
+    .bubble { display:inline-block; padding:10px 14px; border-radius:16px; max-width:78%; }
+    .bubble.user { background:#2b6cb0; color:#fff; border-bottom-right-radius:4px; }
+    .bubble.bot { background:#eef2ff; color:#111827; border-bottom-left-radius:4px; }
+    .controls { display:flex; gap:8px; padding:12px; border-top:1px solid #eee; }
+    input[type="text"]{ flex:1; padding:10px 12px; border-radius:8px; border:1px solid #d1d5db; font-size:15px; }
+    button{ padding:10px 12px; border-radius:8px; border:none; background:#2b6cb0; color:#fff; cursor:pointer; }
+    .small { font-size:13px; color:#666; margin-top:6px; }
+    .intent-tag { display:inline-block; background:#eef2ff; color:#1e3a8a; padding:6px 10px; border-radius:999px; margin-right:6px; font-size:13px; }
+    .feedback { margin-top:6px; display:flex; gap:8px; }
+    .feedback button { background:#e2e8f0; color:#111; padding:6px 10px; border-radius:6px; }
+    .link { color:#2563eb; text-decoration:underline; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <div class="chatbox" role="main">
+    <div class="header">
+      <strong>College Assistant Chatbot</strong>
+      <div style="font-size:13px; opacity:0.9; margin-top:6px;">TF-IDF + Logistic Regression | synonyms, multi-intent, fallback, feedback, short memory</div>
+    </div>
+
+    <div id="messages" class="messages" aria-live="polite"></div>
+
+    <div style="padding:12px;">
+      <div style="display:flex; gap:8px; margin-bottom:8px;">
+        <input id="profile" placeholder="Optional: Enter profile (e.g. '2nd year CSE')" />
+        <button id="saveProfile">Save</button>
+      </div>
+      <div class="controls">
+        <input id="userInput" type="text" placeholder="Ask about admissions, fees, exams, hostel..." />
+        <button id="sendBtn">Send</button>
+      </div>
+      <div class="small">Tip: ask multi-part questions (e.g., "fees and hostel availability"), the bot will try to answer both.</div>
+    </div>
+  </div>
+
+<script>
+  const messagesEl = document.getElementById('messages');
+  const sendBtn = document.getElementById('sendBtn');
+  const userInput = document.getElementById('userInput');
+  const profileInput = document.getElementById('profile');
+  const saveProfile = document.getElementById('saveProfile');
+
+  function appendMessage(text, who='bot', metaHTML='') {
+    const wrap = document.createElement('div');
+    wrap.className = 'msg ' + (who === 'user' ? 'user' : 'bot');
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble ' + (who === 'user' ? 'user' : 'bot');
+    bubble.innerHTML = text + (metaHTML ? ('<div style="margin-top:6px">'+metaHTML+'</div>') : '');
+    wrap.appendChild(bubble);
+    messagesEl.appendChild(wrap);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  async function sendQuery(q) {
+    appendMessage(q, 'user');
+    userInput.value = '';
+    appendMessage('Thinking...', 'bot', '');
+    try {
+      const payload = {
+        text: q,
+        profile: localStorage.getItem('profile') || ''
+      };
+      const res = await fetch('/api/query', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+      // remove last "Thinking..."
+      messagesEl.querySelectorAll('.msg.bot').forEach(n=>{
+        if(n.innerText.trim()==='Thinking...') n.remove();
+      });
+
+      // Show answers (could be multiple)
+      if(data.multi && data.multi.length){
+        let combined = '';
+        data.multi.forEach((ans, idx)=>{
+          combined += `<div style="margin-bottom:8px"><strong>Answer ${idx+1}:</strong><div style="margin-top:6px">${ans.answer}</div>`;
+          if(ans.source) combined += `<div style="font-size:12px;color:#666;margin-top:6px">Source: <span class="link" onclick="window.open('${ans.source}','_blank')">${ans.source}</span></div>`;
+          combined += `</div>`;
+        });
+        // Intent tags and confidence
+        const meta = data.intents.map(it=>`<span class="intent-tag">${it.intent} (${(it.conf*100).toFixed(0)}%)</span>`).join(' ');
+        appendMessage(combined, 'bot', meta + buildFeedbackButtons(data.query_id));
+      } else {
+        const meta = data.intents ? data.intents.map(it=>`<span class="intent-tag">${it.intent} (${(it.conf*100).toFixed(0)}%)</span>`).join(' ') : '';
+        appendMessage(data.answer || 'Sorry — I could not find an answer.', 'bot', meta + buildFeedbackButtons(data.query_id));
+      }
+    } catch (e) {
+      console.error(e);
+      appendMessage('Server error. Try again later.', 'bot');
+    }
+  }
+
+  function buildFeedbackButtons(query_id){
+    return `<div class="feedback">
+      <button onclick="sendFeedback('${query_id}','good', this)">👍 Good</button>
+      <button onclick="sendFeedback('${query_id}','bad', this)">👎 Bad</button>
+    </div>`;
+  }
+
+  async function sendFeedback(qid, label, btn){
+    btn.disabled = true;
+    await fetch('/api/feedback', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({query_id: qid, feedback: label})
+    });
+    btn.innerText = label==='good' ? 'Thanks!' : 'Noted';
+  }
+
+  sendBtn.addEventListener('click', ()=> {
+    const q = userInput.value.trim();
+    if(!q) return;
+    sendQuery(q);
+  });
+
+  userInput.addEventListener('keydown', e=>{
+    if(e.key === 'Enter') sendBtn.click();
+  });
+
+  saveProfile.addEventListener('click', ()=>{
+    const p = profileInput.value.trim();
+    if(!p) return alert('Enter a small profile string');
+    localStorage.setItem('profile', p);
+    alert('Profile saved locally. Bot will use it for personalization.');
+  });
+
+  // welcome message
+  appendMessage('Hello! I can answer admissions, fees, exam, hostel and related college queries. (You can add a profile above for personalized responses)');
+</script>
+
+</body>
+</html>

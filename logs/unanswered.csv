@@ -1,0 +1,158 @@
+time,raw_text,expanded,top_conf,kb_match_score
+2025-11-22T04:28:22.046989,when is the semester exam starts,when is the semester exam start examination test midterm,0.2991361304012727,0.6614662393386818
+2025-11-22T04:28:35.619176,tell me the timetable,tell me the timetable,0.34159156589007605,0.28386525713526445
+2025-11-22T05:18:27.049292,when is the exam,when is the exam examination test midterm semester,0.3295121571885343,0.5271776073617869
+2025-11-22T05:32:43.212039,when is megaplay,when is megaplay,0.3221592425444375,0.2487475650196588
+2025-11-22T05:33:41.739486,what are hostel timings,what are hostel timing accommodation room mess,0.31747754841032416,0.2727937825060302
+2025-11-22T05:35:55.454236,where can i ask about scholorship,where can i ask about scholorship,0.32388502794972324,0.0
+2025-11-22T05:36:09.254445,What scholarships are available?,what scholarship are available scholarships financial aid fellowship,0.31747754841032416,0.2727937825060302
+2025-11-22T05:36:42.949510,",Is WiFi available in hostel?",is wifi available in hostel accommodation room mess,0.29803814207430523,0.743976688718347
+2025-11-22T05:36:52.779783,Is BTech CSE available?,is btech cse available,0.32189371632875596,0.5746755345710084
+2025-11-22T05:37:02.773173,When are semester exams conducted?,when are semester exam conducted examination test midterm,0.31293560650682806,0.8244705268382502
+2025-11-22T05:37:16.423245,What is the minimum attendance required?,what is the minimum attendance required present absent attendance%,0.4262838981760055,0.650079810988433
+2025-11-22T05:37:51.146688,What documents are needed for admission?,what document are needed for admission admissions apply application enroll enrolment,0.39255216080673205,0.23079758953428614
+2025-11-22T05:38:00.699166,What is the admission helpline number?,what is the admission helpline number admissions apply application enroll enrolment,0.37519816051655686,0.5488639086555158
+2025-11-22T05:38:09.809397,"Is there any entrance exam?,",is there any entrance exam examination test midterm semester,0.31485498807820067,0.43970011143027476
+2025-11-22T06:01:32.458946,when does semester starts?,when doe semester start exam examination test midterm,0.07447320523415746,0.47537203200076356
+2025-11-22T06:02:24.938835,what is the minimum attendance percentage,what is the minimum attendance percentage present absent attendance%,0.06362951774817066,0.3002268297553288
+2025-11-22T06:03:31.463680,whendoes  the semester exam ends?,whendoes the semester exam end examination test midterm,0.07722345991358669,0.5175195183963854
+2025-11-22T06:04:27.635506,can you give me the academic calender,can you give me the academic calender,0.06208698435851271,0.28626210842593924
+2025-11-22T06:17:29.095733,when does the semester exam starts,when does the semester exam starts examination test midterm,0.2176625183246633,0.08044838726877784
+2025-11-22T06:42:42.380096,when does the exam starts?,when does the exam starts examination test midterm semester,0.16365473609130538,0.29428025229278104
+2025-11-22T06:43:29.267718,give my exam timetable,give my exam timetable examination test midterm semester,0.23021811230090924,0.0
+2025-11-22T06:57:38.394299,when does the semester exam starts,when does the semester exam starts examination test midterm,0.0665452299735365,0.28211354387123816
+2025-11-22T06:58:05.962754,what is the min attendance,what is the min attendance present absent attendance%,0.08340621486033463,0.7529654565097653
+2025-11-22T06:59:13.128231,when admission staarts for this year?,when admission staarts for this year admissions apply application enroll enrolment,0.06429130473241108,0.33673501269006584
+2025-11-22T06:59:31.490966,how can i apply for it,how can i apply for it admission admissions application enroll enrolment,0.0701854779032379,0.48692860215184613
+2025-11-22T07:00:09.190070,mess timing today?,mess timing today hostel accommodation room,0.06991422091672032,0.3357382600913371
+2025-11-22T07:01:21.647561,is 74 eligible for exam?,is 74 eligible for exam examination test midterm semester,0.07017414343034747,0.306312666814742
+2025-11-22T07:02:56.712297,wht is fee structuure?,wht is fee structuure fees tuition cost charge charges payment,0.07674471290499416,0.5819842857692827
+2025-11-22T07:03:21.655566,last date for fee payment,last date for fee payment fees tuition cost charge charges,0.07111276190664316,0.5107043467421247
+2025-11-22T07:03:46.317286,do we have  christmas holidays,do we have christmas holidays,0.05491387132256624,0.2743482632761622
+2025-11-22T07:04:49.372145,what about placements?,what about placements,0.05198699458536118,0.16226252996447674
+2025-11-22T07:05:05.618179,how is placements in college,how is placements in college,0.05267399658659668,0.13140177866508665
+2025-11-22T07:05:21.182587,what about placementts,what about placementts,0.05198699458536118,0.16226252996447674
+2025-11-22T07:05:42.848221,how is placements in our college?,how is placements in our college,0.05267399658659668,0.13140177866508665
+2025-11-22T07:05:57.384943,how to apply for hostel,how to apply for hostel admission admissions application enroll enrolment accommodation room mess,0.06967321100972246,0.45123260212551486
+2025-11-22T07:06:17.489539,how to contact deparment,how to contact deparment,0.06623199012274263,0.4684737888338298
+2025-11-22T07:06:36.827057,i cannot login to eduserve,i cannot login to eduserve,0.05229991479393061,0.302923283076301
+2025-11-22T07:06:56.598691,i cannto login to our portal,i cannto login to our portal,0.05957399377275665,0.24272663598001476
+2025-11-22T07:07:11.474233,library timing?,library timing,0.0713522340278465,0.4516484186151363
+2025-11-22T07:07:31.448875,what is bus timing?,what is bus timing,0.06644416153178549,0.4214485378542743
+2025-11-22T07:10:08.940343,"""How do I enroll in the college?""",how do i enroll in the college admission admissions apply application enrolment,0.06537322136387591,0.3281978353006166
+2025-11-22T07:10:30.533259,"""What are the charges for the course?""",what are the charges for the course fee fees tuition cost charge payment,0.06572502554180625,0.47067097652103623
+2025-11-22T07:10:39.868126,"""Is there any hostel accommodation?""",is there any hostel accommodation room mess,0.06595141751340901,0.34813594565977707
+2025-11-22T07:13:04.529028,"""What is the hostel fee and how do I apply for admission?""",what is the hostel fee and how do i apply for admission accommodation room mess fees tuition cost charge charges payment admissions application enroll enrolment,0.06695795777266154,0.4776404403542955
+2025-11-22T07:14:16.719977,"""What is the formula of photosynthesis?""",what is the formula of photosynthesis,0.05255048597436695,0.2438379217313421
+2025-11-22T07:16:28.923030,"""Tell me about hostel.""",tell me about hostel accommodation room mess,0.06297959119194693,0.3298929793765649
+2025-11-22T07:16:46.314519,"""What about the fees?""",what about the fees fee tuition cost charge charges payment,0.06648880480243634,0.42591016228194956
+2025-11-22T07:16:58.796769,"""How about the admission process?""",how about the admission process admissions apply application enroll enrolment,0.06697481710783303,0.29377389797214715
+2025-11-22T07:17:13.869184,"""And how can I apply?""",and how can i apply admission admissions application enroll enrolment,0.06886930903007643,0.41672803447325674
+2025-11-22T09:27:32.021182,"""How do I enroll in the college?",how enroll admission admissions apply i application college the do enrolment join in registration,0.06294968340469931,0.3148116132337536
+2025-11-22T09:27:45.623517,What are the charges for the course?,fees pay are charges tuition bill fee course for the cost payment what amount,0.06683185695516303,0.4856965592382048
+2025-11-22T09:28:04.604820,Is there any hostel accommodation?,mess lodging is there accommodation stay hostel any room,0.06791611710731926,0.3800118470129907
+2025-11-22T09:29:48.187095,Is there any hostel accommodation?,mess lodging is there accommodation stay hostel any room,0.06791611710731926,0.3800118470129907
+2025-11-22T09:30:35.098190,"""What is the hostel fee and how do I apply for admission?",enroll bill application for room admissions tuition cost payment the enrolment what pay join mess fees how is charges do stay admission lodging apply i fee accommodation hostel registration and amount,0.06098154317716351,0.3325675626132933
+2025-11-22T09:32:24.173388,"""What is the formula of photosynthesis?""",is formula the of what photosynthesis,0.05286339372086211,0.2376462543545746
+2025-11-22T09:33:23.123863,"""Tell me about hostel.""",mess lodging me tell about accommodation stay hostel room,0.06637736973514344,0.33160215209627225
+2025-11-22T09:33:33.384526,"""What about the fees?""",fees pay tuition charges bill fee cost payment about the what amount,0.06694598111349492,0.4478651840708666
+2025-11-22T09:33:45.784529,How about the admission process?,how admissions enroll apply application about the enrolment join admission registration process,0.06203430627808572,0.23937851222477188
+2025-11-22T09:33:58.282296,And how can I apply?,how admissions enroll apply i application can enrolment join admission registration and,0.0632104678935314,0.2849953570671328
+2025-11-22T09:38:03.939460,"""Tell me about hostel.""",hostel about tell me accommodation room lodging stay,0.06436465453246269,0.2957228588851353
+2025-11-22T09:52:09.274423,"""How do I enroll in the college?",the enroll enrolment apply do college admissions in join i registration how admission application,0.06282141096509895,0.3148116132337536
+2025-11-22T09:52:18.834629,What are the charges for the course?,the pay cost course tuition fee for charges payment amount fees what bill are,0.06708998504123817,0.4856965592382048
+2025-11-22T09:52:30.270104,Is there any hostel accommodation?,stay any there room accommodation hostel is,0.07031087104283572,0.3582598338790377
+2025-11-22T09:52:53.958222,What is the hostel fee and how do I apply for admission?,the and payment stay pay tuition apply do room join what registration how admission application enroll for charges accommodation hostel i bill is cost enrolment fee admissions amount fees,0.06118856794283534,0.36158865986802385
+2025-11-22T09:53:46.580440,What is the formula of photosynthesis?,the formula of what is photosynthesis,0.05293085281423709,0.21428632192374056
+2025-11-22T09:54:55.725666,"""Tell me about hostel.""",stay tell room me accommodation hostel about,0.06593710150257943,0.28457499124555535
+2025-11-22T09:55:05.884501,What about the fees?,the pay cost tuition fee charges payment amount fees what bill about,0.070260276725192,0.5074031974697102
+2025-11-22T09:55:35.140861,How about the admission process?,the enroll enrolment apply join admissions about application registration how admission process,0.06438548498465657,0.23937851222477188
+2025-11-22T09:55:46.583182,And how can I apply,and enroll enrolment apply join admissions i can registration how admission application,0.06313920825673916,0.2849953570671328
+2025-11-22T10:06:27.151000,How do I enroll in the college?,college how enroll enrolment do admissions apply join in application registration i admission the,0.06287838747587539,0.3148116132337536
+2025-11-22T10:06:35.411510,What are the charges for the course?,what amount fees tuition course charges payment cost for bill pay fee are the,0.06595732920104982,0.4914221325978612
+2025-11-22T10:06:43.041170,"Is there any hostel accommodation?""",there stay accommodation hostel is any room,0.05107225194021969,0.3582598338790377
+2025-11-22T10:07:17.442337,What is the hostel fee and how do I apply for admission?,how tuition apply join and cost i fee bill admission enroll do payment pay is the stay room what enrolment fees admissions charges for accommodation hostel application registration amount,0.060154342143103896,0.372414000213149
+2025-11-22T10:07:39.633307,What is the formula of photosynthesis?,what formula photosynthesis is of the,0.05517416463888352,0.29318340492125594
+2025-11-22T10:08:12.775293,Tell me about hostel,stay tell hostel accommodation about me room,0.054181256555252126,0.28457499124555535
+2025-11-22T10:08:22.669107,What about the fees?,what amount fees tuition charges payment cost bill pay fee about the,0.06621933789026745,0.4478651840708666
+2025-11-22T10:08:33.450465,How about the admission process?,how enroll enrolment admissions apply process join application registration admission about the,0.06199041047937343,0.23937851222477188
+2025-11-22T10:08:42.147243,And how can I apply?,how enroll enrolment apply admissions and join can application registration i admission,0.06317420631050652,0.2849953570671328
+2025-11-22T10:44:30.539504,hii,hii,0.05071781152208872,0.0
+2025-11-22T10:44:51.187197,What is the hostel fee and how do I apply for admission?,1 DO Doctor of Osteopathy I access accession accommodation ace act admission admission charge admission fee admission price admittance and ane answer application apply arrange atomic number 53 auberge bash be behave brawl bung cause charges coif coiffe coiffure come comprise constitute cost do doh dorm dress embody employ enforce enroll entrance fee entrance money entree equal execute exercise exist fare fee fees follow for get along give go for hold hostel hostelry how i implement inn iodin iodine is lend oneself live lodge make make out make up manage one payment perform personify practice practise price of admission put on registration represent room serve set single stay student lodging suffice the tip tuition unity use ut utilise utilize what youth hostel,0.05744564395117801,0.2827324763008086
+2025-11-22T10:45:09.519937,What is the formula of photosynthesis?,be chemical formula comprise constitute convention cost embody equal exist expression follow formula is live make up normal of pattern personify photosynthesis recipe represent rule the what,0.050736424822320964,0.09632677561468289
+2025-11-22T10:45:24.703457,cost of staying in hostel,Hoosier State IN In Indiana abide accommodation appease atomic number 49 auberge be bide charges continue cost delay detain dorm fee fees hostel hostelry in inch indium inn inward inwards last out lodge monetary value of outride payment persist price quell remain rest ride out room stay stay on stay put staying stick stick around student lodging toll tuition youth hostel,0.05487628047096185,0.3307279161429362
+2025-11-22T10:45:34.049978,college bus schedule,agenda autobus bus bus topology busbar charabanc coach college docket double-decker heap jalopy jitney motorbus motorcoach omnibus pass passenger vehicle route schedule transport,0.05013883208381913,0.4596643500915149
+2025-11-22T10:47:29.575373,How do I enroll in the college?,1 DO Doctor of Osteopathy Hoosier State I IN In Indiana ace act admission ane answer application apply arrange atomic number 49 atomic number 53 bash behave brawl cause coif coiffe coiffure college come do doh dress enrol enroll enter execute exercise fare get along how i in inch indium inscribe inward inwards iodin iodine make make out manage one perform practice practise recruit registration serve set single suffice the unity ut,0.05401198020608458,0.12747713430243615
+2025-11-22T10:47:54.018067,"""What are the charges for the course?""",accusation accuse agitate appoint ar are armorial bearing bang be bear down bearing bill billing blame boot buck burden burster bursting charge care cathexis charge charge up charges class commission commit commove complaint comprise consign constitute cost course course of action course of instruction course of study direction electric charge embody equal excite exist explosive charge fee feed fees file flow flush follow for form grade guardianship heraldic bearing institutionalise institutionalize kick level line live load lodge make up mission naturally of course path payment personify point represent rouse row run rush saddle send shoot shoot down tear the thrill track trend tuition turn on tutelage what,0.05575396948755345,0.10888951928103832
+2025-11-22T10:48:03.977256,"""Is there any hostel accommodation?""",accommodation adjustment any at that place auberge be comprise constitute cost dorm embody equal exist fitting follow hostel hostelry in that location in that respect inn is live lodge make up on that point personify represent room stay student lodging there thither whatever whatsoever youth hostel,0.053102793025123385,0.3223469687004943
+2025-11-22T10:48:17.650608,"""What is the hostel fee and how do I apply for admission?""",1 DO Doctor of Osteopathy I access accession accommodation ace act admission admission charge admission fee admission price admittance and ane answer application apply arrange atomic number 53 auberge bash be behave brawl bung cause charges coif coiffe coiffure come comprise constitute cost do doh dorm dress embody employ enforce enroll entrance fee entrance money entree equal execute exercise exist fare fee fees follow for get along give go for hold hostel hostelry how i implement inn iodin iodine is lend oneself live lodge make make out make up manage one payment perform personify practice practise price of admission put on registration represent room serve set single stay student lodging suffice the tip tuition unity use ut utilise utilize what youth hostel,0.05744564395117801,0.2827324763008086
+2025-11-22T10:48:33.174633,"""What is the formula of photosynthesis?""",be chemical formula comprise constitute convention cost embody equal exist expression follow formula is live make up normal of pattern personify photosynthesis recipe represent rule the what,0.050736424822320964,0.09632677561468289
+2025-11-22T10:48:59.959405,"""Tell me about hostel.""",ME Maine Pine Tree State Tell William Tell about accommodation almost approximately around assure astir auberge close to differentiate distinguish dorm enjoin evidence hostel hostelry inn just about lodge me more or less most narrate near nearly nigh or so order recite recount room roughly say secern secernate separate severalise severalize some state stay student lodging tell tell apart virtually well-nigh youth hostel,0.0664319406880993,0.20529331113919583
+2025-11-22T10:49:11.926910,"What about the fees?""",about almost approximately around astir bung charges close to cost fee fees just about more or less most near nearly nigh or so payment roughly some the tip tuition virtually well-nigh what,0.06018409608412017,0.15885224955672908
+2025-11-22T10:49:19.573352,What about the fees?,about almost approximately around astir bung charges close to cost fee fees just about more or less most near nearly nigh or so payment roughly some the tip tuition virtually well-nigh what,0.06018409608412017,0.15885224955672908
+2025-11-22T10:49:27.399568,"How about the admission process?""",about access accession action admission admission charge admission fee admission price admittance almost appendage application apply approximately around astir close to cognitive operation cognitive process enroll entrance fee entrance money entree how just about litigate march mental process more or less most near nearly nigh operation or so outgrowth physical process price of admission procedure process registration roughly serve some sue summons swear out the treat unconscious process virtually well-nigh work work on,0.06273250637215479,0.2948462528978418
+2025-11-22T10:49:37.023947,And how can I apply,1 I ace admission and ane application apply arse ass atomic number 53 backside bathroom behind bottom bum buns butt buttocks can can buoy canful commode crapper derriere dismiss displace employ enforce enroll fanny fire force out fundament give give notice give the axe give the sack go for hind end hindquarters hold how i implement iodin iodine john keister lav lavatory lend oneself nates one posterior pot potty practice prat privy put on put up rear rear end registration rump sack seat send away single stern stool tail tail end terminate throne tin tin can toilet tooshie tush unity use utilise utilize,0.05235625590331228,0.12437486372344594
+2025-11-22T11:00:59.951088,How can I apply for admission?,join enrolment for enroll apply i application admission registration admissions can how,0.06592315095966914,0.39159017174142513
+2025-11-22T11:01:13.762875,Where do I submit my admission form?,join enrolment enroll apply where i do application form admission my admissions submit registration,0.06616428934085562,0.31286974563689424
+2025-11-22T11:01:34.452430,Are online payments accepted?,payments are online accepted,0.05013997443020298,0.11265327494430193
+2025-11-22T11:01:46.831584,What is the fee structure?,amount what bill cost pay tuition payment charges is the fee fees structure,0.07307690399794164,0.526526512004318
+2025-11-22T11:02:02.766642,How do I pay my fees?,amount bill pay cost tuition i payment do charges fee fees my how,0.07135103250023214,0.531197486922898
+2025-11-22T11:02:13.362568,Where can I find fee details?,amount bill cost pay tuition where i payment charges details fee fees can find,0.07157971510108121,0.5411328552095283
+2025-11-22T11:02:27.207076,Which documents are required for scholarships?,which for required scholarship financial aid are grant scholarships documents fellowship fee waiver,0.07489410742858091,0.45549081317825874
+2025-11-22T11:02:48.061048,Are hostels available for students?,for students are hostels available,0.05632945876616446,0.33973514481838607
+2025-11-22T15:13:33.114592,How can I apply for admission?,application registration enroll join can enrolment i admission admissions apply how for,0.058745552430694147,0.39159017174142513
+2025-11-22T15:13:47.794117,Where do I submit my admission form?,application submit enroll join registration form enrolment do my i admissions where apply admission,0.05820102330851529,0.33834872689766154
+2025-11-22T15:13:59.539691,How do I register for new admission?,application registration enroll join admissions enrolment do register i admission apply how for new,0.06063326754868445,0.49203727003342446
+2025-11-22T15:14:09.391703,Is admission online or offline?,application registration enroll join or enrolment online offline is admissions apply admission,0.05807551354117905,0.3980508307268752
+2025-11-22T15:14:23.577531,What is the fee structure?,amount fee cost charges fees structure bill tuition pay payment is the what,0.07342596118559315,0.512284855126038
+2025-11-22T15:14:32.362662,Is there a merit scholarship?,scholarship grant fellowship there fee waiver a financial aid is merit scholarships,0.07441372610682638,0.45835213517185863
+2025-11-22T15:14:41.924626,How do I check scholarship eligibility?,check scholarship fellowship eligibility do fee waiver financial aid i scholarships grant how,0.0731411531355399,0.41053715198900254
+2025-11-22T15:15:18.782666,What are the hostel rules?,are discipline hostel stay room what dress code regulation accommodation the rules,0.06396883453563555,0.30783037248135803
+2025-11-22T15:15:32.703773,Are hostels available for students?,students are hostels available for,0.05943172763283808,0.45110098445527047
+2025-11-22T15:15:58.186325,When are the exams scheduled?,are scheduled exams the when,0.05277094426025518,0.18009903866774846
+2025-11-22T15:16:49.595753,Where can I view the exam timetable?,midterm can examination assessment exam test semester i where timetable the view,0.06690827126638124,0.3237849555019621
+2025-11-22T15:16:58.439307,How do I apply for revaluation?,application registration enroll join enrolment do i admission admissions apply revaluation how for,0.0568477002464665,0.3587040143140911
+2025-11-22T15:17:11.585114,Is there a separate portal for exams?,there a is exams portal for separate,0.05587646106595683,0.38714154744576335
+2025-11-22T15:17:24.103629,What is the attendance rule?,percentage absent present attendance is attendance rule the rule what,0.06100673450296027,0.6682974156665635
+2025-11-22T15:17:37.401088,Is 75% attendance compulsory?,compulsory percentage absent 75 present attendance is attendance rule,0.06333587146429416,0.6998200104225369
+2025-11-22T15:17:45.704912,Where can I check my attendance?,check percentage absent can present my attendance i attendance rule where,0.060582487126795946,0.6233440411498141
+2025-11-22T15:18:08.325852,What happens if my attendance is low?,low percentage absent happens present my attendance if is attendance rule what,0.06381207914867944,0.6633758757217336
+2025-11-22T15:18:25.257260,Are workshops conducted in the college?,conducted are workshops college in the,0.05367847465470755,0.27075521433418576
+2025-11-22T15:18:35.836560,Do departments organize seminars?,departments seminars organize do,0.05508912869800055,0.21907524865852762
+2025-11-22T15:18:45.162932,When is the next fest?,seminar next programme event function events is the fest workshop when,0.07088306960920583,0.38501232353348586
+2025-11-22T15:26:46.596149,"""How do I enroll in college?""",admission admissions application apply college do enroll enrolment how i in join registration,0.061914936025123296,0.3104571422833083
+2025-11-22T15:26:55.336572,Tell me about the mess menu,about canteen dining food me menu mess tell the,0.06963522095900439,0.36415102247166825
+2025-11-22T15:27:10.462989,How much tuition do I have to pay?,amount bill charges cost do fee fees have how i much pay payment to tuition,0.0692490206535591,0.46633557479457655
+2025-11-22T15:33:04.025269,Is admission online or offline?,admission admissions application apply enroll enrolment is join offline online or registration,0.0656104719228234,0.4269641852371455
+2025-11-22T15:33:14.274104,How do I pay my fees?,amount bill charges cost do fee fees how i my pay payment tuition,0.07211043366369521,0.531197486922898
+2025-11-22T15:33:24.660330,How can I apply for a scholarship?,a admission admissions application apply can enroll enrolment fee waiver fellowship financial aid for grant how i join registration scholarship scholarships,0.06754034063736317,0.42502218494470345
+2025-11-22T15:33:35.063384,What are the hostel rules?,accommodation are discipline dress code hostel regulation room rules stay the what,0.06564714715999304,0.30783037248135803
+2025-11-22T15:33:45.589794,How are hostel rooms allotted?,accommodation allotted are hostel how room rooms stay,0.0767095590569119,0.36248655948795194
+2025-11-22T15:33:57.053821,Where can I view the exam timetable?,assessment can exam examination i midterm semester test the timetable view where,0.06909029269323617,0.3237849555019621
+2025-11-22T15:34:08.889339,When will the results be released?,be released results the when will,0.062272260971480774,0.21723142989628727
+2025-11-22T15:34:23.250227,How is attendance calculated?,absent attendance attendance rule calculated how is percentage present,0.08342110340709499,0.5563697590442116
+2025-11-22T15:34:34.282177,Where can I check my attendance?,absent attendance attendance rule can check i my percentage present where,0.07948107872263283,0.6277313861038889
+2025-11-22T15:34:43.830599,What events are happening this semester?,are assessment events exam examination happening midterm semester test this what,0.06232295267780888,0.21445709104115054
+2025-11-22T15:34:54.787861,How can I participate in events?,can events how i in participate,0.05427174981985521,0.2706517981002396
+2025-11-22T15:35:18.332556,Are workshops conducted in the college?,are college conducted in the workshops,0.05312820932249653,0.27075521433418576
+2025-11-22T15:35:33.036837,Do departments organize seminars?,departments do organize seminars,0.050541427938008726,0.21907524865852762
+2025-11-22T15:35:40.723969,How can I participate in events?,can events how i in participate,0.05427174981985521,0.2706517981002396
+2025-11-22T15:40:00.921132,How can I apply for admission and what is the fee structure,admission admissions amount and application apply bill can charges cost enroll enrolment fee fees for how i is join pay payment registration structure the tuition what,0.06357488439186976,0.3637169817934355
+2025-11-22T15:40:16.208713,I want hostel accommodation and also want to know the mess charges,accommodation also amount and bill canteen charges cost dining fee fees food hostel i know menu mess pay payment room stay the to tuition want,0.06394862871876959,0.3030439217716724
+2025-11-22T15:40:27.143885,When are the exams and what is the attendance requirement,absent and are attendance attendance rule exams is percentage present requirement the what when,0.07565578747499103,0.5485025086477167
+2025-11-22T15:40:39.187366,“Are there any workshops and events this semester,and any are assessment events exam examination midterm semester test there this workshops,0.06139887997472158,0.22014352514397106
+2025-11-22T15:40:50.200017,Do you have scholarships and how do I apply for them,admission admissions and application apply do enroll enrolment fee waiver fellowship financial aid for grant have how i join registration scholarship scholarships them you,0.06564777913828489,0.3942663585220032
+2025-11-22T15:41:11.483413,What is the formula of photosynthesis?”,formula is of photosynthesis the what,0.05277266524695759,0.2376462543545746
+2025-11-22T15:41:32.060838,Where can I find the library books on AI,ai books can find i issue library on reading room return the where,0.0651891358053929,0.4654900445321285
+2025-11-22T15:41:43.418100,How do I get the bus schedule for campus transport,bus campus closing college details do drop for general get hours how i info information opening pass pickup route schedule the timing timings transport vehicle,0.06551210201642946,0.39518460216835
+2025-11-22T15:41:56.027657,Is there any helpdesk I can contact for queries?,any can contact email for helpdesk i is phone queries support there,0.0686171774219117,0.4986422588917302
+2025-11-22T15:42:34.100047,How can I apply for admission,admission admissions application apply can enroll enrolment for how i join registration,0.06543851361776849,0.39159017174142513
+2025-11-22T15:42:47.692978,“What documents do I need,do documents i need what,0.052690090751104944,0.10828902284485728
+2025-11-22T15:43:04.573822,Can I pay fees online,amount bill can charges cost fee fees i online pay payment tuition,0.07325124472244907,0.5507399553249578
+2025-11-22T15:43:17.114240,Are hostels available for students?,are available for hostels students,0.05904829459623955,0.40070399674917434
+2025-11-22T15:43:26.193957,What about the mess timings,about canteen dining food menu mess the timings what,0.07511296422366139,0.43751786060963954
+2025-11-22T15:43:39.428430,Is there a separate fee for mess,a amount bill canteen charges cost dining fee fees food for is menu mess pay payment separate there tuition,0.06529502073371263,0.3590451688338984
+2025-11-22T15:43:51.132433,When is the midterm exam,assessment exam examination is midterm semester test the when,0.06998661009015172,0.34410116092070686
+2025-11-22T15:44:04.929921,Do I need minimum attendance?,absent attendance attendance rule do i minimum need percentage present,0.07650458799089806,0.5380821678123365
+2025-11-22T15:44:13.214666,What if I miss a lecture,a i if lecture miss what,0.05306644747934087,0.16918940481778305
+2025-11-22T15:44:58.481159,Any upcoming events this month,any events month this upcoming,0.05186193282903798,0.12837037381577407

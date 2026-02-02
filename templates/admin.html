@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin — Upload FAQ</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header><h1>Admin — Upload FAQ CSV</h1></header>
+    <main>
+      <p>Current FAQ entries: <strong>{{ faq_count }}</strong></p>
+      <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file" accept=".csv" />
+        <button type="submit">Upload CSV</button>
+      </form>
+
+      <div id="status" class="small"></div>
+      <hr/>
+      <a href="/">Back to Chat</a>
+      <br/><br/>
+      <a href="/download/logs">Download chat logs</a>
+    </main>
+  </div>
+
+  <script>
+    const form = document.getElementById("upload-form");
+    const fileInput = document.getElementById("file");
+    const status = document.getElementById("status");
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const file = fileInput.files[0];
+      if (!file) { status.textContent = "Choose a CSV file."; return; }
+      const fd = new FormData();
+      fd.append("file", file);
+      status.textContent = "Uploading...";
+      const res = await fetch("/api/upload_faq", {method:"POST", body: fd});
+      const j = await res.json();
+      if (j.ok) {
+        status.textContent = `Uploaded ${j.loaded} rows.`;
+      } else {
+        status.textContent = `Error: ${j.error || "unknown"}`;
+      }
+    });
+  </script>
+</body>
+</html>
